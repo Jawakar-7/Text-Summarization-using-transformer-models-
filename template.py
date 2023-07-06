@@ -7,7 +7,8 @@ from pathlib import Path
 import logging 
 #to log all the information during login 
 
-logging.basicConfig(level=logging.info,format='[%(asctime)s]:%(message)s:')
+#logging.basicConfig(level=logging.INFO,format='[%(asctime)s]:%(message)s:')
+logging.basicConfig(level='INFO', format='[%(asctime)s]:%(message)s:')
 
 project_name="textSummarizer"
 
