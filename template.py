@@ -39,4 +39,19 @@ for fpath in list_of_files:
     fpath=Path(fpath) # used to change the file path according to windows format
     filedir,filename=os.path.split(fpath) # the function returns directory and file name if a file path is given in a tuple .
 
+    if filedir !="":
+        os.makedirs(filedir,exist_ok=True)
+        logging.info(f"creating directory :{filedir} for the file {filename}")
+
+    if (not os.path.exists(fpath)) or (os.path.getsize(fpath)==0):
+        with open (fpath,'w') as f:
+            pass 
+            logging.info(f"Creating empty file : {fpath}")
+    else:
+        logging.info(f"{filename} is already exists")
     
+
+
+
+
+
