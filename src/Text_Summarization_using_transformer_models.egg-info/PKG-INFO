@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Text-Summarization-using-transformer-models
+Version: 0.0.0
+Summary: A NLP project for text summarization
+Home-page: https://github.com/Jawakar-7/Text-Summarization-using-transformer-models
+Author: Jawakar-7
+Author-email: jawakardn@gmail.com
+Project-URL: Bug Tracker, https://github.com/Jawakar-7/Text-Summarization-using-transformer-models/issues
+
+# Text-Summarization-using-transformer-models-
+These models typically utilize natural language processing techniques to analyze the input text, identify key sentences or phrases, and construct a summary that captures the essence of the original content.
