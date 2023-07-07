@@ -15,18 +15,16 @@ AUTHOR_EMAIL="jawakardn@gmail.com"
 
 setuptools.setup(
     name=SRC_REPO,
-    version=__version__
-    author==AUTHOR_USER_NAME
-    author_email=AUTHOR_EMAIL
-    description="A NLP project for text summarization"
+    version=__version__,
+    author=AUTHOR_USER_NAME,
+    author_email=AUTHOR_EMAIL,
+    description="A NLP project for text summarization",
     long_description=long_description,
-    long_description_content="text/markdown"
+    long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": ff"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
     },
     package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
-    
-
 )
