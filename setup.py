@@ -28,3 +28,7 @@ setuptools.setup(
     package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
 )
+
+#setuptools is a Python library that provides utilities for packaging, distributing, and installing Python projects. 
+# It is commonly used to define the metadata and dependencies of a project and create distributable packages such as source distributions
+#  (.tar.gz files) and binary distributions (.whl files).
