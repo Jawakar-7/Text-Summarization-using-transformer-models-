@@ -18,4 +18,9 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2
--e .
+-e . # it will intsall the setup.py 
+"""Note that using -e . assumes that your current directory contains a
+valid Python package with a setup.py  file or a pyproject.toml file 
+(if you're using the newer poetry build   system). This allows the
+package to be installed using the appropriate metadata and dependencies
+specified in the package configuration."""
